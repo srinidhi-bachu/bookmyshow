@@ -1,0 +1,90 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 30px;
+  background-color: #fdeded;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+  font-size: 28px;
+  margin: 0;
+  font-weight: bold;
+  color: #333;
+}
+
+.logo span {
+  color: red;
+}
+
+.search-box {
+  flex-grow: 1;
+  margin: 0 30px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  max-width: 500px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.city-select,
+.signin-btn {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+}
+
+.signin-btn {
+  background-color: #f5587b;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.signin-btn:hover {
+  background-color: #d6476a;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 30px 20px;
+  padding: 30px;
+  background-color: #f5f5f5;
+}
+
+
+.box div {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.box div:hover {
+  transform: scale(1.05);
+}
+
+.box img {
+  width: 100%;
+  height: 400px;
+  border-radius: 8px;
+}
+
+.box a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
